@@ -1,0 +1,12 @@
+{
+  "name": "gpx",
+  "version": "1.0.0",
+  "description": "GPX dump",
+  "main": "index.js",
+  "author": "nemanjan00",
+  "license": "MIT",
+  "dependencies": {
+    "mustache": "^2.3.0",
+    "request": "^2.81.0"
+  }
+}

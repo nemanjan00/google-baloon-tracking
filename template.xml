@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no" ?>
+<gpx xmlns="http://www.topografix.com/GPX/1/1" creator="MapSource 6.13.7" version="1.1" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.garmin.com/xmlschemas/GpxExtensions/v3 http://www.garmin.com/xmlschemas/GpxExtensions/v3/GpxExtensionsv3.xsd http://www.topografix.com/GPX/1/1 http://www.topografix.com/GPX/1/1/gpx.xsd">
+
+	<metadata>
+		<link href="http://www.garmin.com">
+			<text>{{ name }}</text>
+		</link>
+		<time>{{ date }}</time>
+		<bounds maxlat="48.3934990" maxlon="8.2227209" minlat="48.2636040" minlon="8.0465623"/>
+	</metadata>
+
+{{#tracks}}
+	<trk>
+		<name>{{name}}</name>
+		<trkseg>
+{{#points}}
+			<trkpt lat="{{lat}}" lon="{{lng}}">
+				<ele>{{alt}}</ele>
+				<time>{{time}}</time>
+			</trkpt>
+{{/points}}
+		</trkseg>
+	</trk>
+{{/tracks}}
+
+</gpx>
