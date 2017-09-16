@@ -1,8 +1,11 @@
 {
-  "name": "gpx",
+  "name": "google-baloon-tracking",
   "version": "1.0.0",
   "description": "GPX dump",
   "main": "index.js",
+  "bin": {
+    "google-baloon-tracking": "index.js"
+  },
   "author": "nemanjan00",
   "license": "MIT",
   "dependencies": {
