@@ -1,6 +1,6 @@
 {
   "name": "google-baloon-tracking",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "GPX dump",
   "main": "index.js",
   "bin": {
